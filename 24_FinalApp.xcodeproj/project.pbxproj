@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E0991A51F1CFFF2004619BC /* ClickSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0E0991A41F1CFFF2004619BC /* ClickSound.wav */; };
 		0E391A541F042067003D8804 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E391A531F042067003D8804 /* AppDelegate.swift */; };
 		0E391A561F042067003D8804 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E391A551F042067003D8804 /* ViewController.swift */; };
 		0E391A591F042067003D8804 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E391A571F042067003D8804 /* Main.storyboard */; };
@@ -14,6 +15,17 @@
 		0E391A5E1F042067003D8804 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E391A5C1F042067003D8804 /* LaunchScreen.storyboard */; };
 		0E391A691F042067003D8804 /* _4_FinalAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E391A681F042067003D8804 /* _4_FinalAppTests.swift */; };
 		0E391A741F042067003D8804 /* _4_FinalAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E391A731F042067003D8804 /* _4_FinalAppUITests.swift */; };
+		0E391A821F055069003D8804 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E391A811F055069003D8804 /* IntroViewController.swift */; };
+		0E391A841F0560ED003D8804 /* FirstLevelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E391A831F0560ED003D8804 /* FirstLevelViewController.swift */; };
+		0E391A861F0E8D34003D8804 /* GridLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E391A851F0E8D34003D8804 /* GridLabel.swift */; };
+		0E391A8A1F13B791003D8804 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E391A891F13B791003D8804 /* SecondViewController.swift */; };
+		0E391A8C1F13BC91003D8804 /* MyCustomClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E391A8B1F13BC91003D8804 /* MyCustomClass.swift */; };
+		0E391A8E1F15B399003D8804 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E391A8D1F15B399003D8804 /* ThirdViewController.swift */; };
+		0E391A901F16CF53003D8804 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E391A8F1F16CF53003D8804 /* FourthViewController.swift */; };
+		0E391A921F16CF6C003D8804 /* FifthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E391A911F16CF6C003D8804 /* FifthViewController.swift */; };
+		0ECB0DFB1F1D132000EF8AB6 /* ClickSoundOperator.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0ECB0DFA1F1D132000EF8AB6 /* ClickSoundOperator.wav */; };
+		0ECB0DFD1F1D148100EF8AB6 /* IntroSong.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0ECB0DFC1F1D148100EF8AB6 /* IntroSong.mp3 */; };
+		0ECB0DFF1F1D177100EF8AB6 /* winning.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0ECB0DFE1F1D177100EF8AB6 /* winning.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +46,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E0991A41F1CFFF2004619BC /* ClickSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = ClickSound.wav; path = ../../../../ClickSound.wav; sourceTree = "<group>"; };
 		0E391A501F042067003D8804 /* 24_FinalApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 24_FinalApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E391A531F042067003D8804 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0E391A551F042067003D8804 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +60,17 @@
 		0E391A6F1F042067003D8804 /* 24_FinalAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 24_FinalAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E391A731F042067003D8804 /* _4_FinalAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _4_FinalAppUITests.swift; sourceTree = "<group>"; };
 		0E391A751F042067003D8804 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E391A811F055069003D8804 /* IntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
+		0E391A831F0560ED003D8804 /* FirstLevelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstLevelViewController.swift; sourceTree = "<group>"; };
+		0E391A851F0E8D34003D8804 /* GridLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridLabel.swift; sourceTree = "<group>"; };
+		0E391A891F13B791003D8804 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		0E391A8B1F13BC91003D8804 /* MyCustomClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCustomClass.swift; sourceTree = "<group>"; };
+		0E391A8D1F15B399003D8804 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		0E391A8F1F16CF53003D8804 /* FourthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
+		0E391A911F16CF6C003D8804 /* FifthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FifthViewController.swift; sourceTree = "<group>"; };
+		0ECB0DFA1F1D132000EF8AB6 /* ClickSoundOperator.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = ClickSoundOperator.wav; path = ../../../../ClickSoundOperator.wav; sourceTree = "<group>"; };
+		0ECB0DFC1F1D148100EF8AB6 /* IntroSong.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = IntroSong.mp3; path = ../../../../IntroSong.mp3; sourceTree = "<group>"; };
+		0ECB0DFE1F1D177100EF8AB6 /* winning.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = winning.wav; path = ../../../../../Downloads/winning.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +124,18 @@
 				0E391A531F042067003D8804 /* AppDelegate.swift */,
 				0E391A551F042067003D8804 /* ViewController.swift */,
 				0E391A571F042067003D8804 /* Main.storyboard */,
+				0E391A8B1F13BC91003D8804 /* MyCustomClass.swift */,
+				0E391A831F0560ED003D8804 /* FirstLevelViewController.swift */,
+				0E391A891F13B791003D8804 /* SecondViewController.swift */,
+				0E391A8D1F15B399003D8804 /* ThirdViewController.swift */,
+				0E391A8F1F16CF53003D8804 /* FourthViewController.swift */,
+				0E391A911F16CF6C003D8804 /* FifthViewController.swift */,
+				0E391A851F0E8D34003D8804 /* GridLabel.swift */,
+				0E391A811F055069003D8804 /* IntroViewController.swift */,
+				0ECB0DFC1F1D148100EF8AB6 /* IntroSong.mp3 */,
+				0ECB0DFE1F1D177100EF8AB6 /* winning.wav */,
+				0E0991A41F1CFFF2004619BC /* ClickSound.wav */,
+				0ECB0DFA1F1D132000EF8AB6 /* ClickSoundOperator.wav */,
 				0E391A5A1F042067003D8804 /* Assets.xcassets */,
 				0E391A5C1F042067003D8804 /* LaunchScreen.storyboard */,
 				0E391A5F1F042067003D8804 /* Info.plist */,
@@ -194,6 +230,11 @@
 					0E391A4F1F042067003D8804 = {
 						CreatedOnToolsVersion = 8.3.2;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					0E391A631F042067003D8804 = {
 						CreatedOnToolsVersion = 8.3.2;
@@ -233,7 +274,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E391A5E1F042067003D8804 /* LaunchScreen.storyboard in Resources */,
+				0E0991A51F1CFFF2004619BC /* ClickSound.wav in Resources */,
+				0ECB0DFB1F1D132000EF8AB6 /* ClickSoundOperator.wav in Resources */,
 				0E391A5B1F042067003D8804 /* Assets.xcassets in Resources */,
+				0ECB0DFD1F1D148100EF8AB6 /* IntroSong.mp3 in Resources */,
+				0ECB0DFF1F1D177100EF8AB6 /* winning.wav in Resources */,
 				0E391A591F042067003D8804 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,7 +304,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E391A921F16CF6C003D8804 /* FifthViewController.swift in Sources */,
+				0E391A8A1F13B791003D8804 /* SecondViewController.swift in Sources */,
+				0E391A8C1F13BC91003D8804 /* MyCustomClass.swift in Sources */,
+				0E391A861F0E8D34003D8804 /* GridLabel.swift in Sources */,
+				0E391A901F16CF53003D8804 /* FourthViewController.swift in Sources */,
+				0E391A841F0560ED003D8804 /* FirstLevelViewController.swift in Sources */,
+				0E391A821F055069003D8804 /* IntroViewController.swift in Sources */,
 				0E391A561F042067003D8804 /* ViewController.swift in Sources */,
+				0E391A8E1F15B399003D8804 /* ThirdViewController.swift in Sources */,
 				0E391A541F042067003D8804 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -507,6 +560,7 @@
 				0E391A7A1F042067003D8804 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0E391A7B1F042067003D8804 /* Build configuration list for PBXNativeTarget "24_FinalAppTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +569,7 @@
 				0E391A7D1F042067003D8804 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0E391A7E1F042067003D8804 /* Build configuration list for PBXNativeTarget "24_FinalAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +578,7 @@
 				0E391A801F042067003D8804 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
